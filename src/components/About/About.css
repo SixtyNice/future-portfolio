@@ -1,0 +1,18 @@
+.about{
+    height:100vh;
+  }
+  
+  .about-content{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding-top:60px;
+}
+  .about-text{
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.07em;
+    color: #000000;
+    width:55%;
+  }
+
