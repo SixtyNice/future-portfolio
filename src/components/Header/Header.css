@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-top:20px;
+}
+
+.header-link {
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+    display: inline-block;
+    padding-left: 70px;
+}
+
