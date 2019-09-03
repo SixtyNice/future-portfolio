@@ -1,0 +1,10 @@
+.lang-switch {
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.07em;
+    color: rgba(0, 0, 0, 0.35);
+    margin-left: 40px;
+    cursor:pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+

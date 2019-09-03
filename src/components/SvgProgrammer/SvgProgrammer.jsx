@@ -3,7 +3,7 @@ import React from 'react'
 export default function SvgProgrammer() {
     return (
         <div className="SvgProgrammer">
-            <svg width="301" height="301" viewBox="0 0 301 301" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="301" height="301" viewBox="0 0 301 301" fill="none">
 <g id="programmer">
 <g id="Message">
 <path id="Vector" d="M122.281 54.0859C122.281 78.7303 104.221 99.0948 80.6116 102.81L75.25 108.172L70.4528 103.328C44.3034 102.058 23.5156 80.5175 23.5156 54.0859C23.5156 26.8078 45.6203 4.70312 72.8984 4.70312C100.177 4.70312 122.281 26.8078 122.281 54.0859V54.0859Z" fill="#5D9CEC"/>

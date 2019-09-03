@@ -1,4 +1,4 @@
-body{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,11 +8,15 @@ a{
   text-decoration: none;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
-  padding: 0 10em;
   margin: auto;
-  background-color: lightgray;
+  overflow: hidden;
+  /* background-color: lightgray; */
 }
 
