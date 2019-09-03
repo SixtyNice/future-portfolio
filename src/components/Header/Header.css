@@ -3,7 +3,12 @@
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    padding: 0 20px;
+    right: 40px;
+    background-color: #fff;
+    height: 10vh;
 }
 
 .header__link {
@@ -15,9 +20,10 @@
     position: relative;
 }
 
-.header__link::before{
+.header__link::before {
+    
     content: '';
-    display: block; 
+    display: block;
     height: 3px;
     position: absolute;
     bottom: -7px;
@@ -31,4 +37,3 @@
 .header__link:hover::before {
     opacity: 1;
 }
-
