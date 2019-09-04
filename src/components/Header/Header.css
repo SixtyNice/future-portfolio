@@ -6,9 +6,9 @@
     position: fixed;
     top: 0;
     padding: 0 20px;
-    right: 40px;
     background-color: #fff;
     height: 10vh;
+    max-width: 1200px;
 }
 
 .header__link {
@@ -21,7 +21,6 @@
 }
 
 .header__link::before {
-    
     content: '';
     display: block;
     height: 3px;
