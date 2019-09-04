@@ -1,3 +1,30 @@
 .skill {
     height: 100vh;
+    position: relative;
+}
+
+.skill-container {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.skill__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: 0.07em;
+}
+
+.skill__list {
+    padding-top: 90px;
+    padding-left: 17px;
+}
+
+.skill__item {
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.07em;
+    padding-bottom: 30px;
 }
