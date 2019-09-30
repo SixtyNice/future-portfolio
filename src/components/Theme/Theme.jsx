@@ -9,9 +9,7 @@ export default class Theme extends Component {
     }
     render() {
         return (
-            <div className="theme">
-                <img className="theme-light" src="./sun.svg" alt=""/>
-            </div>
+            <div></div>
         )
     }
 }

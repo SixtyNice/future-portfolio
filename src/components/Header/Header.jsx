@@ -1,17 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Header.css';
 import LangSwitcher from '../LangSwitcher/LangSwitcher';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
+
 
 export default function Header() {
+
     return (
-        <header className="header">
+        <header className="header" >
             <nav className="header__nav">
-                <a className="header__link" href="#">About me</a>
-                <a className="header__link" href="#">My Skills</a>
-                <a className="header__link" href="#">My Projects</a>
-                <a className="header__link" href="#">Contact</a>
+                <AnchorLink className="header__link" href="#me">About me</AnchorLink>
+                <AnchorLink className="header__link" href="#skills">My Skills</AnchorLink>
+                <AnchorLink className="header__link" href="#projects">My Projects</AnchorLink>
+                <AnchorLink className="header__link" href="#contacts">Contact</AnchorLink>
                 <LangSwitcher ln="EN" />
             </nav>
         </header>
     )
+
 }
+
