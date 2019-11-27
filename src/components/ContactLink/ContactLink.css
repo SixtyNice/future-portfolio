@@ -1,0 +1,15 @@
+.contact-link {
+    display: flex;
+    align-items: center;
+    text-transform: none;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+
+.contact__text {
+    padding-left: 10px;
+}
+
+.contact-link__icon {
+    width: 40px;
+}

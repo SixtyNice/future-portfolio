@@ -4,7 +4,7 @@ import Tree from '../Tree/Tree';
 
 export default function Skill() {
     return (
-        <section className="skill">
+        <section id="skills" className="skill" name='#skills'>
              <Tree />
             <div className="skill-container">
                 <div className="skill-list-wrapper">

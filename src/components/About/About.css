@@ -11,7 +11,8 @@
 
 }
   .about-text{
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size:1.5em;
     line-height: 33px;
     letter-spacing: 0.07em;
     color: #000000;
@@ -20,3 +21,8 @@
     /* margin: 0; */
   }
 
+.about__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,14 +1,12 @@
 .tree-wrapper {
-    width: 60%;
-    height: 0;
-    padding-top: 68%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+   width: 46%;
+   position: absolute;
+   left: 0;
+   bottom: 0;
 }
 
 .tree-svg {
     position: absolute;
-    top: 0;
     left: 0;
+    bottom: 0;
 }

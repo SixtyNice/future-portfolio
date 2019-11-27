@@ -1,0 +1,9 @@
+.message {
+    transform: scale(0.2);
+    transform-origin:25% 50%;
+    transition: all .3s linear;
+}
+
+.message-animation {
+    transform: scaleY(1);
+}

@@ -16,7 +16,7 @@ body{
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 0 40px;
   position: relative;
 }

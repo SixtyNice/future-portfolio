@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Header.css';
 import LangSwitcher from '../LangSwitcher/LangSwitcher';
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 

@@ -1,4 +1,30 @@
-.theme-light {
-    width: 100px;
-    height: 100px;
+.theme {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    width: 90px;
+    max-width: 120px;
+    justify-content: space-between;
+}
+
+.theme__sun {
+    width: 40px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color .2s linear;
+}
+
+
+.theme__moon { 
+    width: 30px;
+    cursor: pointer; 
+}
+.theme__moon:hover {
+
+}
+
+.theme__sun:hover{
+
 }
